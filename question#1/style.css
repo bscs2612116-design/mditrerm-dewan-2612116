@@ -1,0 +1,57 @@
+body{
+    display:flex;
+    background-color:grey;
+    justify-content: center;
+    align-items:center;
+    height: 1px;
+}
+parent{
+    display:flex;
+    border: width 20px;
+    height: 10px;
+    width: 5px;
+    border: radius 10px;
+    background-color: blue;
+    flex-direction: column;
+    flex:1;
+    overflow: hidden;
+}
+.upper{
+    width: 20px;
+    height: 120px;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    border-radius: 5px;
+    border: 2px;
+}
+.lower{
+    width: 20px;
+    height: 20px;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    border: 2px;
+    border-radius: 10px;
+}
+
+button{
+    transition: 20px;
+    background-color: aqua;
+    color: white;
+}
+
+button :hover{
+    display:flex;
+    color: silver;
+}
+.h{
+    margin-left: 10px;
+    color: bisque;
+}
+#close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#close
